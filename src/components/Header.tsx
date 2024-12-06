@@ -13,7 +13,7 @@ export default function Header() {
   if (!mounted) return null;
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 px-6 py-4 backdrop-blur-lg bg-white/80 dark:bg-black/80">
+    <header className="fixed top-0 left-0 right-0 z-50 px-6 py-4 backdrop-blur-lg bg-black/80">
       <div className="max-w-5xl mx-auto flex justify-between items-center">
         <div className="text-lg font-medium tracking-tight">
           N — F
